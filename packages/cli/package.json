@@ -1,0 +1,22 @@
+{
+  "name": "@mavis/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "mavis": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "@mavis/core": "workspace:*",
+    "chalk": "^5.4.0",
+    "commander": "^13.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}

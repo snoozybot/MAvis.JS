@@ -1,0 +1,16 @@
+{
+  "name": "mavis",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r --parallel dev",
+    "mavis": "node packages/cli/dist/index.js"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
