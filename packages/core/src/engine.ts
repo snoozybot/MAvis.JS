@@ -44,7 +44,6 @@ export function applyStep(level: Level, state: State, timeStep: TimeStep): {
   } else {
     return { valid: false, state: nextState, error: res.error };
   }
-
 }
 
 /**
